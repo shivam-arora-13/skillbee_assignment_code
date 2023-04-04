@@ -23,7 +23,11 @@ app.use(
 
 app.get('/', (req, res) => {
     const data = {
-        key : "2237769"
+        key : "2237769",
+        activity : "Explore the nightlife of your city",
+        price : 0.1,
+        accessibility : 0.32,
+        type : "social"
     };
     res.render('template.ejs', data);
 });

@@ -10,27 +10,37 @@
 </head>
 
 <body>
-  <div class="container" style="height: 100%; width: 80%;">
+  <div class="container" style="height: 100%; width: 70%;">
 
     <div class="row no-margin">
 
-      <div class="col-6 no-margin">
+      <div class="col-6">
         <div class="row">
-          <p class="text-start light-text">Key</p>
+          <p class="text-start light-text">
+            <%= key %>
+          </p>
         </div>
         <div class="row">
-          <p class="text-start text-uppercase text-break fs-1 fw-bolder">Explore the nightlife of your city</p>
-          <p class="text-start text-uppercase text-break fs-5 fw-bold">Outdoor & sporting goods</p>
+          <p class="text-start text-uppercase text-break heading-text">
+            <%= activity %>
+          </p>
+          <p class="text-start text-uppercase text-break sub-heading-text">Outdoor & sporting goods company</p>
         </div>
 
       </div>
 
       <div class="col-6">
         <div class="row">
-          <p class="text-end">Price</p>
+          <p class="text-end" style="
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          color: #9497A8;">Price</p>
         </div>
         <div class="row">
-          <p class="text-end">0.1</p>
+          <p class="text-end">
+            <%= price %>
+          </p>
         </div>
       </div>
 
@@ -38,41 +48,48 @@
 
     <div class="row no-margin">
 
-      <div class="col-6 no-margin">
+      <div class="col-6">
 
         <div class="row h-25">
-          <p><button type="button" class="btn btn-danger w-50 explore-button">EXPLORE MORE</button></p>
+          <p><button type="button" class="btn btn-danger w-50" id="explore-button">
+            EXPLORE MORE
+            <img src="/Images/Arrow 3.png">
+          </button></p>
           <p class="text-start light-text">We have more special goods for you 🚀</p>
         </div>
 
         <div class="row h-50">
           <div class="col-6 content-div">
-            <p class="text-uppercase fw-light no-margin">More Than</p>
-            <p class="text-uppercase fw-bolder fs-1 no-margin">50+</p>
-            <p class="text-uppercase fw-light no-margin">adventure products</p>
+            <p class="text-uppercase figure-upper-heading">More Than</p>
+            <p class="text-uppercase heading-text">50+</p>
+            <p class="text-uppercase figure-sub-heading">ADVENTURE PRODUCTS</p>
           </div>
           <div class="col-6 content-div">
-            <p class="text-uppercase fw-light no-margin">More Than</p>
-            <p class="text-uppercase fw-bolder fs-1 no-margin">75+</p>
-            <p class="text-uppercase fw-light no-margin">Outlet in Indonesia</p>
+            <p class="text-uppercase figure-upper-heading">More Than</p>
+            <p class="text-uppercase heading-text">75+</p>
+            <p class="text-uppercase figure-sub-heading">OUTLET IN INDONESIA</p>
           </div>
         </div>
 
-        <div class="row h-25 no-margin" id="bottom-div">
+        <div class="row h-25" id="bottom-div">
 
           <div class="col-6 icon-text-div">
             <img src="/Images/card-send.png">
-            <div class="container">
-              <p class="text-muted no-margin fw-light fs-6">ACCESSIBILITY</p>
-              <p class="text-white fw-medium fs-5 no-margin">0.32</p>
+            <div style="width: min-content;">
+              <p class="no-margin bottom-logo-text">ACCESSIBILITY</p>
+              <p class="bottom-logo-value">
+                <%= accessibility %>
+              </p>
             </div>
           </div>
 
           <div class="col-6 icon-text-div">
             <img src="/Images/shield-tick.png">
-            <div class="container">
-              <p class="text-muted no-margin fw-light fs-6">TYPE</p>
-              <p class="text-white fw-medium fs-5 no-margin text-uppercase">SOCIAL</p>
+            <div style="width: min-content;">
+              <p class="no-margin bottom-logo-text">TYPE</p>
+              <p class="bottom-logo-value">
+                <%= type %>
+              </p>
             </div>
           </div>
 
@@ -82,7 +99,7 @@
       </div>
 
       <div class="col-6 no-margin">
-          <img src="/Images/Component 1.png" style="width: 100%;">
+        <img src="/Images/Component 1.png" style="width: 100%;">
       </div>
 
     </div>
