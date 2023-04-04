@@ -12,5 +12,8 @@ Steps followed to complete this assignment
     https://shivam-arora-13.github.io/skillbee_hosted_pages/Page{i}.html
     
     Replace the '{i}' with a number between 1 to 10 to access the dynamically generated HTML pages
+    
    
+The Lighthouse Score for the link.
    
+<img width="506" alt="Screenshot 2023-04-04 at 6 21 23 PM" src="https://user-images.githubusercontent.com/80348769/229797458-f95b5dfc-f583-42f9-b9af-c76360fe0d30.png">
